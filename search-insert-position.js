@@ -1,4 +1,4 @@
-// Leet Code Search Insert Position Solution - Runtime: 97.35%, Memory: 90.48%
+// LeetCode Search Insert Position Solution - Runtime: 97.35%, Memory: 90.48%
 
 var searchInsert = function(nums, target) {
     let left = 0;
