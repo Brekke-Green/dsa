@@ -15,3 +15,18 @@ var twoSum = function(nums, target) {
         }   
     }
 };
+
+// Brekke Green - twoSum solution Leetcode
+// date: 17/07/2023
+// runtime: 59ms (faster than 67.88%)
+// memory: 42.26 MB (less than 71.73%)
+
+var twoSum = function(nums, target) {
+    for (let i = nums.length; i > 0; i--) {
+        for (let j = i - 1; j >= 0; j--) {
+           if (nums[i] + nums[j] === target) {
+               return [j, i]
+           }
+       }
+   } 
+};
